@@ -44,7 +44,25 @@ public class ArrayListConcept {
 			System.out.println(e);
 			
 		}
+		
+		// 	ArrayList with name(string)
+		ArrayList<String> empList =new ArrayList<String>();
+		empList.add("Neeta");
+		empList.add("Suresh");
 
+		//ArrayList with different data types- 	String,int,double, char,boolean,
+		
+		ArrayList<Object> empData = new ArrayList<Object>();
+		
+		empData.add("Anari");
+		empData.add(298);
+		empData.add(45.999);
+		empData.add('F');
+		empData.add(true);
+		
+		for(Object e : empData) {
+			System.out.println(e);
+		}
 	}
 
 }
