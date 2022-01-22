@@ -63,6 +63,13 @@ public class ArrayListConcept {
 		for(Object e : empData) {
 			System.out.println(e);
 		}
+		
+		ArrayList<String> prod = new ArrayList<String> ();
+		prod.add("MacBook");
+		//prod.add(4,"Samsung");// IndexOutOfBoundsException thrown during runtime.
+		prod.add("Samsung");
+		System.out.println(prod);
+		//System.out.println(prod.get(3)); // IndexOutOfBoundsException thrown during runtime
 	}
 
 }
