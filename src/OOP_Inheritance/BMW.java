@@ -10,5 +10,10 @@ public class BMW extends Car{
 	public void autoParking() {
 		System.out.println("BMW--autoParking");
 	}
+	
+
+	public static void getName() {
+		System.out.println("BMW--Get Name");
+	}
 
 }

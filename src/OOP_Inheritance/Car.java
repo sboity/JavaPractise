@@ -12,5 +12,9 @@ public class Car {
 
 	public void refuel() {
 		System.out.println("Car--Refuel");
+		
+	public static void getName() {
+		System.out.println("Car--Get Name");
+	}
 	}
 }
