@@ -1,4 +1,4 @@
-package ConstructorConcept;
+package JavaProgramPractise;
 
 public class ArrayAverage {
 
